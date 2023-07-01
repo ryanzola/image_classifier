@@ -1,0 +1,31 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook
+.ipynb_checkpoints
+
+# Image datasets should not be versioned 
+data/  # Or whichever folder your images are in
+
+# Environment files
+image_classification_2/
+.venv/
+.env
+*.venv
+venv/
+ENV/
+
+# Project files
+*.pyproj
+*.sln
+
+# MacOS files
+.DS_Store
+
+# Log and history files
+*.log
+.history
+
